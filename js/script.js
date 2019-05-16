@@ -102,7 +102,7 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 
 /***
 Extra Credit code
-***/
+
 let colors = [
   red,
   blue,
@@ -117,3 +117,4 @@ function randomColor(){
 
 }
 myElement.style.body{'background-color', +randomColor};
+***/

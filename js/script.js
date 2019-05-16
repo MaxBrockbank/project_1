@@ -117,4 +117,4 @@ function randomColor(){
 
 }
 
-myElement.style.body{'background-color', +colors[randomColor]};
+body.style.backgroundColor = colors[randomColor];

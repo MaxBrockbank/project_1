@@ -113,7 +113,8 @@ let colors = [
 ]
 
 function randomColor(){
-  Math.floor(Math.random()*colors.length)
+  Math.floor(Math.random()*colors.length);
 
 }
-myElement.style.body{'background-color', +randomColor};
+
+myElement.style.body{'background-color', +colors[randomColor]};

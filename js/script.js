@@ -104,12 +104,12 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 Extra Credit code
 ***/
 let colors = [
-  red,
-  blue,
-  orange,
-  yellow,
-  green,
-  purple,
+  'red',
+  'blue',
+  'orange',
+  'yellow',
+  'green',
+  'purple',
 ]
 
 function randomColor(){

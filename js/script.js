@@ -97,3 +97,23 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
+
+
+
+/***
+Extra Credit code
+***/
+let colors = [
+  red,
+  blue,
+  orange,
+  yellow,
+  green,
+  purple,
+]
+
+function randomColor(){
+  Math.floor(Math.random()*colors.length)
+
+}
+myElement.style.body{'background-color', +randomColor};

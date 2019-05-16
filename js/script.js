@@ -10,7 +10,7 @@ project 1 - A Random Quote Generator
   Here is the array of quote objects that will be pulled from at random.
 ***/
 
-let quotePool = [
+let quotes = [
   {
     quote:'Life\'s not about how hard of a hit you can give... it\'s about how many you can take, and still keep moving forward.',
     source:'Sylvester Stallone',
@@ -54,7 +54,7 @@ This function will generate a ranodom number, and then use that number to return
 ***/
 
 function getRandomQuote(){
-  let randomQuote = quotePool[Math.floor(Math.random()*quotePool.length)]
+  let randomQuote = quotes[Math.floor(Math.random()*quotes.length)]
   return randomQuote;
 }
 

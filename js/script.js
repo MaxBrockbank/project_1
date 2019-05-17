@@ -114,7 +114,7 @@ let colors = [
 
 function randomColor(){
   let colorSelect = Math.floor(Math.random()*colors.length);
-  var el = getElementById(bod);
+  var el = document.getElementById(bod);
   el.style.backgroundColor = colors[colorSelect];
 }
 

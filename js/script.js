@@ -117,4 +117,4 @@ function randomColor(){
 
 }
 
-body.style.backgroundColor = colors[randomColor];
+setAttribute(body, colors[randomColors});

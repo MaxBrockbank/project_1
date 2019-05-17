@@ -117,4 +117,4 @@ function randomColor(){
 
 }
 
-setAttribute(body, colors[randomColors]);
+body.setAttribute('style', 'color:colors[randomColors]');

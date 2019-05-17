@@ -117,3 +117,5 @@ function randomColor(){
   var el = getElementById(bod);
   el.style.backgroundColor = colors[colorSelect];
 }
+
+randomColor();

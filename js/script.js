@@ -113,8 +113,7 @@ let colors = [
 ]
 
 function randomColor(){
-  Math.floor(Math.random()*colors.length);
-
+  let colorSelect = Math.floor(Math.random()*colors.length);
+  var el = getElementById(bod);
+  el.style.backgroundColor = colors[colorSelect];
 }
-
-body.setAttribute('style', 'color:colors[randomColors]');
